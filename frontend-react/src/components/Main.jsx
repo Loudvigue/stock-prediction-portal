@@ -1,4 +1,5 @@
 import React from 'react'
+import Button from './button'
 
 export const Main = () => {
   return (
@@ -15,7 +16,7 @@ export const Main = () => {
                     Pellentesque nisi arcu, scelerisque vel enim vitae, accumsan pretium ipsum. 
                     Integer facilisis, justo quis tincidunt elementum, augue mi laoreet erat, ut rutrum quam nulla in neque. 
                     Vivamus sem ipsum, elementum vitae faucibus tempor, gravida eu lacus.</p>
-                <a className='btn btn-info' href="">Login</a>
+                <Button text='LogIn' class="btn-info"/>
             </div>
         </div>
     </>
