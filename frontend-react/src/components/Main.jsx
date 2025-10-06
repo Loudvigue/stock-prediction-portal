@@ -16,7 +16,7 @@ export const Main = () => {
                 Pellentesque nisi arcu, scelerisque vel enim vitae, accumsan pretium ipsum. 
                 Integer facilisis, justo quis tincidunt elementum, augue mi laoreet erat, ut rutrum quam nulla in neque. 
                 Vivamus sem ipsum, elementum vitae faucibus tempor, gravida eu lacus.</p>
-            <Button text='Login' class="btn-outline-info" url="/login"/>
+            <Button text='Dashboard' class="btn-outline-info" url="/dashboard"/>
         </div>
       </div>
     </>

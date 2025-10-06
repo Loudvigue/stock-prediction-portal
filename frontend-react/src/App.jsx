@@ -6,6 +6,7 @@ import Main from './components/Main'
 import Register from './components/Register'
 import Login from './components/Login'
 import AuthProvider from './AuthProvider'
+import Dashboard from './components/dashboard/dashboard'
 
 
 function App() {
@@ -19,6 +20,7 @@ function App() {
                 <Route path='/' element= {<Main/>}/>
                 <Route path='/register' element= {<Register/>}/>
                 <Route path='/login' element= {<Login/>}/>
+                <Route path='/dashboard' element= {<Dashboard/>}/>
             </Routes>
           <Footer/>
         </BrowserRouter>
